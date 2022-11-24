@@ -1,7 +1,7 @@
 # Week 1
 ## Wednesday, November 23, 2022
 ### Algorithm to prepare a pizza from scratch
-
+```
 1. Start
 2. Have the pizza ingredients at hand.
 3. Mix the flour, salt, sugar and olive oil with a mixer.
@@ -19,9 +19,9 @@
 15. Remove the pizza from the oven.
 16. Wait for the pizza to cool and start tasting.
 17. Finish.
-
+```
 ### Algorithm that is able to convert temperatures from Celsius to Fahrenheit and viceversa.
-
+```
 1. Start
 2. Display 2 options to the user, the first option would be to convert from Celsius to Farenheit and the second option is to convert from Farenheit to Celsius.
 3. If the first option is chosen then continue to step 4 otherwise continue to step 8.
@@ -35,9 +35,9 @@
 11. The value obtained in step 10 is divided by 1.8.
 12. The result obtained in step 11 is displayed.
 13. Finish.
-
+```
 ### Algorithm to calculate the volume of a pyramid, a cube and a sphere
-
+```
 1. Start
 2. Display 3 options to the user, the first option is to calculate the volume of a pyramid, the second option is to calculate the volume of a cube and the third option is to calculate the volume of a sphere.
 If the first option is chosen then continue to step 4 otherwise continue to step 8.
@@ -56,3 +56,4 @@ If the first option is chosen then continue to step 4 otherwise continue to step
 16. The value obtained in step 15 is multiplied with pi.
 17. The result obtained from step 16 is displayed.
 18. Finish.
+```
