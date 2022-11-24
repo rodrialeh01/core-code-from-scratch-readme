@@ -40,7 +40,7 @@
 ```
 1. Start
 2. Display 3 options to the user, the first option is to calculate the volume of a pyramid, the second option is to calculate the volume of a cube and the third option is to calculate the volume of a sphere.
-If the first option is chosen then continue to step 4 otherwise continue to step 8.
+3. If the first option is chosen then continue to step 4 otherwise continue to step 8.
 4. Ask to enter the height of the pyramid.
 5. Prompt to enter the area of the base of the pyramid.
 6. The value obtained in step 5 is multiplied with 1/3 and also multiplied with the value obtained in step 4 and also multiplied with the value obtained in step 5.
