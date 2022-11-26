@@ -1,6 +1,6 @@
 # Week 1
 ## Wednesday, November 23, 2022
-### Algorithm to prepare a pizza from scratch
+### Algorithm to prepare a pizza from scratch 🍕
 ```
 1. Start
 2. Have the pizza ingredients at hand.
@@ -20,7 +20,7 @@
 16. Wait for the pizza to cool and start tasting.
 17. Finish.
 ```
-### Algorithm that is able to convert temperatures from Celsius to Fahrenheit and viceversa.
+### Algorithm that is able to convert temperatures from Celsius to Fahrenheit and viceversa. 🌡
 ```
 1. Start
 2. Display 2 options to the user, the first option would be to convert from Celsius to Farenheit and the second option is to convert from Farenheit to Celsius.
@@ -36,7 +36,7 @@
 12. The result obtained in step 11 is displayed.
 13. Finish.
 ```
-### Algorithm to calculate the volume of a pyramid, a cube and a sphere
+### Algorithm to calculate the volume of a pyramid, a cube and a sphere 📐
 ```
 1. Start
 2. Display 3 options to the user, the first option is to calculate the volume of a pyramid, the second option is to calculate the volume of a cube and the third option is to calculate the volume of a sphere.
@@ -56,4 +56,54 @@
 16. The value obtained in step 15 is multiplied with pi.
 17. The result obtained from step 16 is displayed.
 18. Finish.
+```
+
+## Thursday, November 24, 2022
+
+### Numbers 📈
+```
+1. Start
+2. Ask for a number.
+3. The number obtained in step 2 is made a modular division with 2 and if its result is 0 then go to step 4, otherwise go to step 5.
+4. Show that the number is even.
+5. Show that the number is odd.
+6. Finish.
+```
+The flowchart of the algorithm is the following:
+![Numbers](./Diagrama%20sin%20t%C3%ADtulo.drawio.png)
+
+### How old are you? 👴
+The algorithm is the following:
+```
+1. Start
+2. Ask for the year of birth.
+3. Subtract 2022 with the number obtained in step 2.
+4. Show the result obtained in step 3.
+5. Finish.
+```
+
+The pseudocode of the algorithm is the following:
+```
+año = 0
+imprimir("¿Cuál es su año de nacimiento?")
+leer(año)
+edad = 2022 - año
+imprimir("Su edad es: " + edad)
+```
+
+### Find the treasure 👑
+Description: <br>
+```
+We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
+
+Left chest: The middle chest has a treasure.
+Middle chest: All these chests have treasures in them.
+Right chest: Only one of these chests has treasures.
+
+Which chests have treasures?
+```
+Solution:
+
+```
+The left chest and the right chest have treasures.
 ```
