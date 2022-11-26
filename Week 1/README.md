@@ -69,7 +69,7 @@
 5. Show that the number is odd.
 6. Finish.
 ```
-The flowchart of the algorithm is the following:
+The flowchart of the algorithm is the following:<br>
 ![Numbers](./Diagrama%20sin%20t%C3%ADtulo.drawio.png)
 
 ### How old are you? 👴
