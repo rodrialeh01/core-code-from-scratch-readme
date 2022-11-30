@@ -49,3 +49,38 @@ fin si
 
 The flowchart of the algorithm is the following:<br>
 ![Cereal](./Diagram1.png)
+
+---
+## Tuesday, November 29, 2022
+### Print my name
+
+The pseudocode of the algorithm is the following:
+```
+Algoritmo my_Name
+	Imprimir 'Rodrigo Hernández'
+FinAlgoritmo
+```
+
+The result of the algorithm is the following:
+
+![Result1](./PS1.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [my_Name](./my_Name.psc)
+
+---
+
+### Print my name & age
+
+The pseudocode of the algorithm is the following:
+```
+Algoritmo my_Name_and_age
+	Imprimir 'Rodrigo Hernández'
+	Imprimir '21'
+FinAlgoritmo
+```
+
+The result of the algorithm is the following:
+
+![Result1](./PS2.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [my_Name_and_age](./my_Name_and_age.psc)
