@@ -163,9 +163,11 @@ FinAlgoritmo
 ```
 
 Input:
+
 ![Input](./W_C3.png)
 
 Output:
+
 ![Output](./W_C4.png)
 
 You can also view the pseudocode in PSeInt by opening the PSeInt file: [Register_Form](./Register_Form.psc)
