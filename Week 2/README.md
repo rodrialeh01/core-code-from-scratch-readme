@@ -117,8 +117,10 @@ FinAlgoritmo
 ```
 The result of the algorithm is the following:
 - For even numbers:
+
 ![Result1](./W_C2.png)
 - For odd numbers:
+
 ![Result2](./W_C1.png)
 
 You can also view the pseudocode in PSeInt by opening the PSeInt file: [Modulo](./Modulo.psc)
