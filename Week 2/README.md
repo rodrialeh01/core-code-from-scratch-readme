@@ -55,7 +55,7 @@ The flowchart of the algorithm is the following:<br>
 ### Print my name
 
 The pseudocode of the algorithm is the following:
-```
+```python
 Algoritmo my_Name
 	Imprimir 'Rodrigo Hernández'
 FinAlgoritmo
@@ -72,7 +72,7 @@ You can also view the pseudocode in PSeInt by opening the PSeInt file: [my_Name]
 ### Print my name & age
 
 The pseudocode of the algorithm is the following:
-```
+```python
 Algoritmo my_Name_and_age
 	Imprimir 'Rodrigo Hernández'
 	Imprimir '21'
@@ -84,3 +84,88 @@ The result of the algorithm is the following:
 ![Result1](./PS2.png)
 
 You can also view the pseudocode in PSeInt by opening the PSeInt file: [my_Name_and_age](./my_Name_and_age.psc)
+
+---
+
+## Wednesday, November 30, 2022
+
+### Algorithm game
+
+I complete 15 levels of this [game](https://www.w3schools.com/codegame/).
+
+This is my progress:
+
+![Level15](./Algorithm_Game.png)
+
+---
+
+### Mod
+
+#### Description
+
+The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input.
+
+#### Solution
+The pseudocode of the algorithm is the following:
+```python
+Algoritmo Modulo
+	Definir x Como Entero
+	Imprimir 'Ingrese un número:'
+	Leer x
+	Imprimir x%2
+FinAlgoritmo
+```
+The result of the algorithm is the following:
+- For even numbers:
+![Result1](./W_C2.png)
+- For odd numbers:
+![Result2](./W_C1.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [Modulo](./Modulo.psc)
+
+---
+
+### Register Form
+#### Description
+You are given the task to create a registration form for new users, this form should ask the user for the following information:
+
+- First name
+- Last name
+- Age
+- Email
+- Address
+
+At the end of the program, you should print all the information added from the user in a friendly way
+
+#### Solution
+
+The pseudocode of the algorithm is the following:
+```python
+Algoritmo Register_Form
+	Imprimir '========= USER FORM ========='
+	Imprimir 'First Name:'
+	Leer first_name
+	Imprimir 'Last Name:'
+	Leer last_name
+	Imprimir 'Edad:'
+	Leer age
+	Imprimir 'Email:'
+	Leer email
+	Imprimir 'Address:'
+	Leer address
+	Imprimir '========================= USER DATA ========================='
+	Imprimir 'Full name: ' + first_name + ' ' + last_name
+	Imprimir 'Age: ' + age
+	Imprimir 'Email: ' + email
+	Imprimir 'Address: ' + address
+	Imprimir '============================================================='
+FinAlgoritmo
+```
+
+Input:
+![Input](./W_C3.png)
+
+Output:
+![Output](./W_C4.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [Register_Form](./Register_Form.psc)
