@@ -194,8 +194,8 @@ You are going to learn about three main logical operations used in programming, 
 | `~`F = T | ✅ |
 | (T `&` F) `OR` (`~`F) = T | ✅ |
 | (T `OR` F ) `&` (F `OR` F) = T | ❌ |
-| `~`((T `OR` F ) `&` (F `OR` F)) `&` F = T | ✅ |
-| `~`((T `OR` F ) `&` (F `OR` F)) `&` T = F | ✅ |
+| `~`((T `OR` F ) `&` (F `OR` F)) `&` F = T | ❌ |
+| `~`((T `OR` F ) `&` (F `OR` F)) `&` T = F | ❌ |
 
 ---
 
