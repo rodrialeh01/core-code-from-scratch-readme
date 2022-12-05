@@ -124,3 +124,5 @@ The result of the algorithm is the following:
 - Regular number:
 
 ![image5](./Images/RN.png)
+
+The pseudocode can also be viewed in PSeInt by opening the PSeInt file: [SpecialNumber](./Code/specialNumber.psc)
