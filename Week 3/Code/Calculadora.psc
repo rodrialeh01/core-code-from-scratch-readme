@@ -34,6 +34,4 @@ Algoritmo Calculadora
 	SiNo
 		Escribir ':( La operación no es valida'
 	FinSi
-	
-	
 FinAlgoritmo
