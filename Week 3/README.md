@@ -364,3 +364,136 @@ The result of the algorithm is the following:
 ![image1](./Images/CalD1.png)
 
 You can also view the pseudocode in PSeInt by opening the PSeInt file: [Simple calculator with Do While](./Code/Calculadora_Do_While.psc)
+
+---
+
+## Thursday, December 08, 2022
+
+### Multiplication Tables with For
+
+#### Description
+
+For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop. The user must enter a number and then the multiplication table for the number must be printed.
+
+#### Solution
+
+The pseudocode of the algorithm is the following:
+
+```python
+Algoritmo Multiplicacion_For
+	Escribir "======================= CALCULADORA ====================="
+	Escribir "Ingrese la tabla de multiplicar"
+	Leer numero_user
+	Escribir "@ Tabla de ", numero_user, " @"
+	Para i<-1 Hasta 11 Con Paso 1 Hacer
+		total = i*numero_user
+		Escribir numero_user, " * ", i, " = ", total
+	Fin Para
+FinAlgoritmo
+```
+
+The result of the algorithm is the following:
+
+![image1](./Images/MF.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [Multiplication Tables with For](./Code/Multiplicacion_For.psc)
+
+---
+
+### Ascending and Descending Numbers
+
+#### Description
+
+For this challenge we are going to print numbers in ascending or descending order. The user must enter a number, then he must enter if he wants to print the numbers in ascending or descending order. If the user chooses ascending, the numbers will be printed from the number 0 to the number entered, otherwise the numbers will be printed descending from the number entered to the number 0.To solve this challenge remember to use the For(Para) loop.
+
+#### Solution
+
+The pseudocode of the algorithm is the following:
+
+```python
+Algoritmo Ascending_Descending
+	Escribir "======= Ascending and Descending Numbers ========"
+	Escribir "Ingrese un numero"
+	Leer number
+	Escribir  "Operaciones disponibles:"
+	Escribir "1. Imprimir en orden Ascendente"
+	Escribir "2. Imprimir en orden Descendente"
+	Escribir "Ingrese operacion a ejecutar"
+	Leer option
+	Segun option Hacer
+		1: 
+			Para i<-0 Hasta number Con Paso 1 Hacer
+				Escribir i
+			Fin Para
+		2: 
+			Para i<-number Hasta 0 Con Paso -1 Hacer
+				Escribir i
+			Fin Para
+	FinSegun
+FinAlgoritmo
+```
+
+The result of the algorithm is the following:
+
+- Ascending
+
+![image1](./Images/Ascending.png)
+
+- Descending
+
+![image1](./Images/Descending.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [Ascending and Descending Numbers](./Code/Ascending_Descending.psc)
+
+---
+
+### Greetings
+
+#### Description
+
+For this challenge, you need to create a program that prints a greeting based on an hour entered. The program should do the following:
+
+- Print `Buenos dias!` if the hour is from 0 to 12
+- Print `Buenas tardes!` if the hour is from 13 to 18
+- Print `Buenas noches!` if the hour is from 19 to 23
+- Ask the user if he wants to perform another greeting. If the answer is `Si`, the program must start again.
+- At the end of the program, print out the number of times the program has greeted.
+
+#### Solution
+
+The pseudocode of the algorithm is the following:
+
+```python
+Algoritmo Greetings
+	Escribir "======== Cheers ========"
+	continuar = "Si"
+	contador_saludos = 0
+	Mientras(continuar == "Si") Hacer
+		Escribir "Ingrese la hora actual (0-23):"
+		Leer hora
+		Si hora > 0 & hora <=12 Entonces
+			Escribir "Buenos Días!"
+			contador_saludos = contador_saludos+1
+		FinSi
+		Si hora > 13 & hora <=18 Entonces
+			Escribir "Buenos Tardes!"
+			contador_saludos = contador_saludos+1
+		FinSi
+		Si hora > 19 & hora <=23 Entonces
+			Escribir "Buenos Noches!"
+			contador_saludos = contador_saludos+1
+		FinSi
+		Escribir "Desea continuar? (Si/No)"
+		Leer continuar
+		Si continuar == "No" Entonces
+			Escribir  "Cantidad de saludos realizados: ", contador_saludos
+		FinSi
+	FinMientras
+FinAlgoritmo
+```
+
+The result of the algorithm is the following:
+
+![image1](./Images/Greetings.png)
+
+You can also view the pseudocode in PSeInt by opening the PSeInt file: [Greetings](./Code/Greetings.psc)
