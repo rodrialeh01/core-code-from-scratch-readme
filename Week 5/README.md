@@ -1,6 +1,6 @@
 # Week 5
 
-## Monday December 20, 2022
+## Monday December 19, 2022
 
 ### Time Converter
 
@@ -84,3 +84,82 @@ The result of the program is as follows:
 ![compare_distances](./Images/P2.png)
 
 You can find the code for this problem [here](./Code/ComparaDistancias.psc).
+
+---
+
+## Thuesday December 20, 2022
+
+### Sum of pairs
+
+#### Description
+
+write a function called sumOfPairs that asks for a number from 1 to 100 indefinitely, if a negative number or greater than 100 is entered, it stops asking for more numbers and returns the sum of all the even numbers entered.
+
+4, 12 , 100, 11, -60 --> 116
+
+40, 121 --> 40
+
+#### Solution
+
+This is the code for the problem:
+
+```python
+Algoritmo exampleSumOfPairs
+	Imprimir sumOfPairs()
+FinAlgoritmo
+
+Funcion number <- sumOfPairs()
+	num = 0
+	n = 0
+	Repetir
+		Escribir "Escribe un numero entre 1 y 100"
+		Leer n
+		Si (n>=0 & n<=100) & n%2 == 0 Entonces
+			num = num + n
+		FinSi
+	Mientras Que n>=0 & n<=100 
+	number = num
+FinFuncion
+```
+
+The result of the program is as follows:
+
+![sum_of_pairs](./Images/P3.png)
+
+You can find the code for this problem [here](./Code/exampleSumOfPairs.psc).
+
+---
+
+### Mid point
+
+#### Description
+
+Write a function called midpoint that given 2 values ​​(can be negative) does not return the value of the midpoint between them
+
+-50,50 --> 0
+
+40, 80 --> 60
+
+#### Solution
+
+This is the code for the problem:
+
+```python
+Algoritmo exampleMidpPoint
+	Imprimir midPoint(-50,50)
+FinAlgoritmo
+
+Funcion resultado <- midPoint(num1,num2)
+	Si num1>0 & num2>0 Entonces
+		resultado = (num1+num2)/2
+	SiNo
+		resultado = 0
+	FinSi
+FinFuncion
+```
+
+The result of the program is as follows:
+
+![mid_point](./Images/P4.png)
+
+You can find the code for this problem [here](./Code/exampleMidpPoint.psc).
