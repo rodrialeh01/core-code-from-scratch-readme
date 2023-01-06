@@ -163,3 +163,193 @@ The result of the program is as follows:
 ![mid_point](./Images/P4.png)
 
 You can find the code for this problem [here](./Code/exampleMidpPoint.psc).
+
+---
+
+## Wednesday December 21, 2022
+
+### Cashier
+
+#### Description
+
+create a function called "cashier" that pretends to be a panel of a bank should display the text: "select an option: a. to deposit. b. withdraw. c. go out." and have a value called balance that will return when finished and will print it on the screen, its initial value will be 1000. You must repeat the menu until you select the option 'c'
+
+if we select 'a' it invokes another function called 'deposit' that will display a text on the screen that will say 'how much do you want to deposit:' it will add that value to the balance and end the function.
+
+if we select 'b' it invokes another function called 'withdraw' that will display a text on the screen that will say 'how much do you want to withdraw:' it will subtract that value from the balance and end the function.
+
+"select an option: a. to deposit. b. withdraw. c. go out."
+
+a -->
+
+"how much do you want to deposit:"
+
+500 -->
+
+"select an option: a. to deposit. b. withdraw. c. go out."
+
+b -->
+
+"how much do you want to withdraw:"
+
+1400 -->
+
+"select an option: a. to deposit. b. withdraw. c. go out."
+
+c -->
+
+100
+
+#### Solution
+
+This is the code for the problem:
+
+```python
+Algoritmo exampleCashier
+	Imprimir cashier()
+FinAlgoritmo
+
+Funcion number <- cashier()
+	saldo = 1000
+	opcion = "d"
+	Mientras opcion <> "c" hacer
+		Escribir "Selecciona una opcion:"
+		Escribir "a. Depositar"
+		Escribir "b. Retirar"
+		Escribir "c. Salir"
+		Leer opcion
+		Si opcion == "a" Entonces
+			saldo = saldo + depositar()
+		FinSi
+		Si opcion == "b" Entonces
+			saldo = saldo - retirar()
+		FinSi
+	FinMientras
+	Escribir "Tu saldo es: ", saldo
+FinFuncion
+
+Funcion salida <- depositar()
+	Escribir "¿Cuánto quiere depositar?"
+	Leer salida
+FinFuncion
+
+Funcion salida <- retirar()
+	Escribir "¿Cuánto quiere retirar?"
+	Leer salida
+FinFuncion
+```
+
+The result of the program is as follows:
+
+![cashier](./Images/P5.png)
+
+You can find the code for this problem [here](./Code/exampleCashier.psc).
+
+---
+
+### Weather average
+
+#### Description
+
+write an algorithm that loops indefinitely until 'x' is entered which will calculate an average of the weather, note that for each value entered it should ask if it is fahrenheit or celsius, then ask for the value. add everything up and divide by the number of values ​​entered. The result must be returned in celsius, have a function that, in case fahrenheit is entered, transforms it to celsius in order to add them.
+
+#### Solution
+
+This is the code for the problem:
+
+```python
+
+Algoritmo exampleWeatherAverage
+	count = 0;
+	total = 0;
+	Repetir
+		Imprimir "select an option:";
+		Imprimir "a. enter degrees celsius.";
+		Imprimir "b. enter degrees fahrenheit.";
+		Imprimir "x. go out.";
+		leer option
+		Si option = "a" | option = "b" Entonces
+			leer degree
+			count = count + 1;
+		FinSi
+		Si option = 'a' Entonces
+			total = total + degree;
+		FinSi
+		Si option = 'b' Entonces
+			total = total + fahrenheitToCelsius(degree)
+		FinSi
+	Mientras Que option = "a" | option = "b"
+	Imprimir total / count;
+	
+FinAlgoritmo
+
+Funcion celsius <- fahrenheitToCelsius (fahrenheit)
+	Definir celsius Como Real;
+	celsius = (fahrenheit - 32 ) / 1.8
+Fin Funcion
+
+```
+
+The result of the program is as follows:
+
+![weather_average](./Images/P6.png)
+
+You can find the code for this problem [here](./Code/exampleWeatherAverage.psc).
+
+---
+
+## Thursday December 22, 2022
+
+### If
+
+#### Description
+
+Create an if statement with the JavaScript syntax
+
+#### Solution
+
+```JavaScript
+//Verifica la edad de una persona
+let edad = 18;
+
+if(edad >= 18){
+	console.log("Eres mayor de edad");
+else{
+	console.log("Eres menor de edad");
+}
+```
+---
+### While
+
+#### Description
+
+Create a while loop statement with the JavaScript syntax
+
+#### Solution
+
+```JavaScript
+//Imprime los numeros del 1 al 10
+let contador = 1;
+
+whilr(contador <= 10){
+	console.log(contador);
+}
+```
+
+---
+
+### For
+
+#### Description
+
+Create a for loop with the JavaScript syntax
+
+#### Solution
+
+```JavaScript
+//Imprime los numeros del 1 al 10
+
+for(let i = 1; i <= 10; i++){
+	console.log(i);
+}
+```
