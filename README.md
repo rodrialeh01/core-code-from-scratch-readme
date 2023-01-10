@@ -8,3 +8,4 @@ Welcome to my repository, follow the menu below to visualize the solution of the
 - [Week 4](./Week%204/README.md)
 - [Week 5](./Week%205/README.md)
 - [Week 6](./Week%206/README.md)
+- [Week 7](./Week%207/README.md)
