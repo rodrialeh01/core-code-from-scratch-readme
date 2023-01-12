@@ -63,7 +63,7 @@ Array.prototype.first = function(){
 }
 
 Array.prototype.last = function(){
-  if(this.length === 1){
+  if(this.length === 0){
     return undefined;
   } else{
     const copy = [...this];
