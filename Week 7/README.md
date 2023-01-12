@@ -19,3 +19,5 @@
     - Convert number to reversed array of digits
     - Truthy and Falsy
     - Training JS #4: Basic data types--Array
+
+View my stats in CodeWars in https://www.codewars.com/users/rodrialeh01
