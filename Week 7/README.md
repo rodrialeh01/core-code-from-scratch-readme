@@ -14,3 +14,8 @@
     - Count strings in objects
     - Extending JavaScript Objects: Get First & Last Array Element
     - Object Oriented Piracy
+- [Thursday January 12, 2023](./Thursday.md)
+    - Convert a String to a Number!
+    - Convert number to reversed array of digits
+    - Truthy and Falsy
+    - Training JS #4: Basic data types--Array
