@@ -76,45 +76,60 @@ Array.prototype.last = function(){
 
 ### Description
 
-While making a zork-type game, you create an object of rooms. Unfortunately, the game is not working. Find all of the errors in the rooms object to get your game working again.
+Ahoy matey!
+
+You are a leader of a small pirate crew. And you have a plan. With the help of OOP you wish to make a pretty efficient system to identify ships with a heavy booty on board.
+
+Unfortunately for you, people weigh a lot these days, so how do you know if a ship is full of gold and not people?
+
+You begin with writing a generic Ship class / struct:
 
 ```JavaScript
-var rooms = {
-  first: {
-    description: 'This is the first room'
-    items: {
-      chair: 'The old chair looks comfortable',
-      lamp: 'This lamp looks ancient'
-  },
-  second: {
-    description: 'This is the second room'
-    items: {
-      couch: 'This couch looks like it would hurt your back,
-      table: 'On the table there is an unopened bottle of water'
-    }
-  }
+function Ship(draft,crew) {
+  this.draft = draft;
+  this.crew = crew;
 }
 ```
+
+Every time your spies see a new ship enter the dock, they will create a new ship object based on their observations:
+
+- draft - an estimate of the ship's weight based on how low it is in the water
+- crew - the count of crew on board
+
+```JavaScript
+var titanic = new Ship(15, 10);
+```
+
+You have access to the ship "draft" and "crew". "Draft" is the total ship weight and "crew" is the number of humans on the ship.
+
+Each crew member adds 1.5 units to the ship draft. If after removing the weight of the crew, the draft is still more than 20, then the ship is worth looting. Any ship weighing that much must have a lot of booty!
+
+Add the method
+
+```JavaScript
+isWorthIt
+```
+
+to decide if the ship is worthy to loot. For example:
+
+```JavaScript
+titanic.isWorthIt() // return false
+```
+
+This Kata teaches you the very basics of method creation.
+
+Good luck!
 
 ### Solution
 
 This is the solution for the problem:
 
 ```JavaScript
-var rooms = {
-    first: {
-        description: 'This is the first room',
-        items: {
-            chair: 'The old chair looks comfortable',
-            lamp: 'This lamp looks ancient'
-        }
-    },
-    second: {
-        description: 'This is the second room',
-        items: {
-            couch: 'This couch looks like it would hurt your back',
-            table: 'On the table there is an unopened bottle of water'
-        }
-    }
+function Ship(draft,crew) {
+  this.draft = draft;
+  this.crew = crew;
+  this.isWorthIt = function (){
+    return (this.draft - this.crew * 1.5) > 20;
+  }
 }
 ```
