@@ -8,3 +8,7 @@
     - Even or odd
     - A wolf in sheep's clothing
     - Decode the morse code
+- [Wednesday January 18, 2023](./Wednesday.md)
+    - Who likes it?
+    - Bit counting
+    - Your order, please
