@@ -12,3 +12,8 @@
     - Who likes it?
     - Bit counting
     - Your order, please
+- [Thursday January 19, 2023](./Thursday.md)
+    - Counting duplicates
+    - Encrypt this!
+    - Valid parentheses
+    - Convert string to camel case
