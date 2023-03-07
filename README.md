@@ -12,3 +12,6 @@ Welcome to my repository, follow the menu below to visualize the solution of the
 - [Week 8](./Week%208/README.md)
 - [Week 9](./Week%209/README.md)
 - [Week 10 - Calculator](https://github.com/rodrialeh01/Calculadora)
+- Week 11 - React
+- [Week 12](./Week%2012/README.md)
+- [Week 13](./Week%2013/README.md)
