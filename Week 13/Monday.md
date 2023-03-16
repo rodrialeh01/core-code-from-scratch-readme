@@ -104,7 +104,3 @@ The issue description must contain an explanation of how you managed to hack the
 - If you feel stuck you can ask the team for help, but the explanation and submission of your github issue is personal.
 
 - In this challenge you can work alone, or with as many people as you want. If you want to organize the whole team to solve it, you can do it, this challenge is free and you can work with whoever you want.
-
-### Solution
-
-
